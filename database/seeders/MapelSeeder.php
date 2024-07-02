@@ -15,12 +15,12 @@ class MapelSeeder extends Seeder
     public function run()
     {
         DB::table('mapels')->insert([
-            'nama_mapel' => 'Biologi',
+            'nama_mapel' => ' Instalasi Jaringan',
             'jurusan_id' => 1,
         ]);
 
         DB::table('mapels')->insert([
-            'nama_mapel' => 'Ekonomi',
+            'nama_mapel' => 'Basis Data',
             'jurusan_id' => 2,
         ]);
     }

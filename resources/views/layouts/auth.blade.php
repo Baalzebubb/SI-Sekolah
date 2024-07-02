@@ -29,7 +29,7 @@
                         @endif
                         @yield('content')
                         <div class="simple-footer">
-                            Copyright &copy; ANKH Digital {{ date('Y') }}
+                            Copyright &copy; Iqbaal Wafi {{ date('Y') }}
                         </div>
                     </div>
                 </div>

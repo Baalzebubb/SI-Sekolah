@@ -15,19 +15,19 @@ class GuruSeeder extends Seeder
     public function run()
     {
         DB::table('gurus')->insert([
-            'nama' => 'Budi Santoso',
+            'nama' => 'Hendri Irawanto',
             'nip' => '1234567890',
             'mapel_id' => 1,
             'no_telp' => '081234567890',
-            'alamat' => 'Jl. Budi Santoso',
+            'alamat' => 'Sumbawa Besar',
         ]);
 
         DB::table('gurus')->insert([
-            'nama' => 'Gunawan Efendi',
+            'nama' => 'Yuyun Tri Warti',
             'nip' => '0987654321',
             'mapel_id' => 2,
             'no_telp' => '089876543210',
-            'alamat' => 'Jl. Gunawan Efendi',
+            'alamat' => 'Brang Biji',
         ]);
     }
 }

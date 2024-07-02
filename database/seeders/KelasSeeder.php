@@ -15,13 +15,13 @@ class KelasSeeder extends Seeder
     public function run()
     {
         DB::table('kelas')->insert([
-            'nama_kelas' => 'X IPA 1',
+            'nama_kelas' => 'XI TKJ 2',
             'jurusan_id' => 1,
             'guru_id' => 1,
         ]);
 
         DB::table('kelas')->insert([
-            'nama_kelas' => 'X IPS 1',
+            'nama_kelas' => 'XII RPL 3',
             'jurusan_id' => 2,
             'guru_id' => 2,
         ]);

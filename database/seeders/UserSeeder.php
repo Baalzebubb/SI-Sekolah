@@ -21,42 +21,42 @@ class UserSeeder extends Seeder
         $siswa = Siswa::all();
 
         DB::table('users')->insert([
-            'name' => 'Admin',
-            'email' => 'admin@mail.com',
-            'password' => Hash::make('admin123'),
+            'name' => 'Iqbaal Wafi',
+            'email' => 'iqbaal@mail.com',
+            'password' => Hash::make('iqbaal123'),
             'roles' => 'admin',
             'created_at' => date('Y-m-d H:i:s'),
             'updated_at' => date('Y-m-d H:i:s')
         ]);
 
         DB::table('users')->insert([
-            'name' => 'Budi Santoso',
-            'email' => 'budi@mail.com',
-            'password' => Hash::make('budi123'),
+            'name' => 'Hendri Irawanto',
+            'email' => 'hendri@mail.com',
+            'password' => Hash::make('hendri123'),
             'roles' => 'guru',
             'nip' => '1234567890',
         ]);
 
         DB::table('users')->insert([
-            'name' => 'Gunawan Efendi',
-            'email' => 'gunawan@mail.com',
-            'password' => Hash::make('gunawan123'),
+            'name' => 'Yuyun Tri Warti',
+            'email' => 'yuyun@mail.com',
+            'password' => Hash::make('yuyun123'),
             'roles' => 'guru',
             'nip' => '0987654321',
         ]);
 
         DB::table('users')->insert([
-            'name' => 'Kevin Hartanto',
-            'email' => 'kevin@mail.com',
-            'password' => Hash::make('kevin123'),
+            'name' => 'Bulan Sutena',
+            'email' => 'bulan@mail.com',
+            'password' => Hash::make('bulan123'),
             'roles' => 'siswa',
             'nis' => '123454321',
         ]);
 
         DB::table('users')->insert([
-            'name' => 'Siska Saraswati',
-            'email' => 'siska@mail.com',
-            'password' => Hash::make('siska123'),
+            'name' => 'Denny Gustawan',
+            'email' => 'denny@mail.com',
+            'password' => Hash::make('denny123'),
             'roles' => 'siswa',
             'nis' => '543212345',
         ]);

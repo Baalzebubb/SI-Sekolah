@@ -15,19 +15,19 @@ class SiswaSeeder extends Seeder
     public function run()
     {
         DB::table('siswas')->insert([
-            'nama' => 'Kevin Hartanto',
+            'nama' => 'Bulan Sutena',
             'nis' => '123454321',
             'kelas_id' => 1,
             'telp' => '081234567890',
-            'alamat' => 'Jl. Kevin Hartanto',
+            'alamat' => 'Brang Rea',
         ]);
 
         DB::table('siswas')->insert([
-            'nama' => 'Siska Saraswati',
+            'nama' => 'Denny Gustawan',
             'nis' => '543212345',
             'kelas_id' => 2,
             'telp' => '089876543210',
-            'alamat' => 'Jl. Siska Saraswati',
+            'alamat' => 'Lempeh',
         ]);
     }
 }
